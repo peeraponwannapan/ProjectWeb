@@ -1,0 +1,9 @@
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="StudentID-column">Timestamp</th>
+      <th scope="firstname-column">StudentID</th>
+      <th scope="lastname-column">Firstname</th>
+      <th scope="timestamp-column">Lastname</th>
+    </tr>
+  </thead>
