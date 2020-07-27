@@ -1,0 +1,5 @@
+1.git remote add origin https://github.com/peeraponwannapan/ProjectWeb.git 
+2.git add * 
+3.git commit -m "word"
+4.git push origin master
+5.git pull
