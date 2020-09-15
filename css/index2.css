@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-gridmenu {
+    max-width: 960px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(20, 1fr);
+}
+
+.menubar {
+    width: 100%;
+    border: 1px solid;
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.tablelist {
+    background-color: #333333;
+}
+
+.menubar .logo {
+    align-self: center;
+    grid-column: 1/2;
+    justify-self: start;
+    margin: 0 10px;
+
+
+}
+
+.menubar .menu {
+    grid-column: 2/3;
+    list-style: none;
+    align-self: center;
+    display: flex;
+    justify-self: end;
+    flex-direction: unset;
+    margin-bottom: 0px;
+
+}
+
+.menubar li {
+    margin-right: 10px;
+}
+
+.menubar li a {
+    text-decoration: none;
+}
+
+.tablelist button {
+
+    width: 100%;
+}
+
+.buttonlist1 {
+    grid-area: 1/2/2/3;
+    margin: 20px 0;
+    justify-self: center;
+    width: 100%;
+}
+
+.buttonlist2 {
+    grid-area: 2/2/3/3;
+    justify-self: center;
+    margin: 20px 0;
+    width: 100%;
+}
